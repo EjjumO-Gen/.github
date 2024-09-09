@@ -1,12 +1,44 @@
-## Hi there 👋
+![Banner](https://github.com/user-attachments/assets/0b1ca540-a512-4885-91ee-ef041cac429e)
 
-<!--
+> 🎧 ュ んı절.. 우己lㄱr 좋ㅇr했던.. 노㉣łı.
 
-**Here are some ideas to get you started:**
+감성에 젖은 여러분을 위한 플레이리스트 공유 플랫폼, 이쩜오세대.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 기존 플랫폼의 문제점
+
+### YouTube Music
+
+- 재생목록 플레이리스트: 좋아요, 댓글 등 커뮤니티 기능 부재.
+- 자체 제작 플레이리스트: 플레이리스트를 내 입맛대로 바꿀 수 없음.
+
+### Spotify
+
+- 플레이리스트 공유 횟수가 좋아요를 대신하나, 댓글 등 커뮤니티 기능 부재
+
+---
+
+### 이쩜오세대는…
+
+플레이리스트가 하나의 게시물이 되어, 자유로운 소통을 할 수 있는 커뮤니티를 제공합니다.
+
+## 서비스 컨셉 및 MVP
+
+### 플레이리스트 제작
+
+- 유튜브 검색 API로 노래를 검색
+- 담은 노래로 재생목록 생성
+
+### 플레이리스트 공유
+
+- 재생목록 생성 시, 하나의 글이 만들어지는 것과 같음
+- 좋아요 및 댓글을 비롯한 커뮤니티 기능
+
+## 추가 기능
+
+### 플레이리스트 랭킹, 고인물 랭킹
+
+- 좋아요 순 정렬로 인기 플레이리스트 및 인기 작성자 랭킹 기능
+
+### 신청곡
+
+- 댓글로 신청곡을 요청하여, 이를 작성자가 반영한 후 피드백 가능
