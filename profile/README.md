@@ -4,41 +4,40 @@
 
 감성에 젖은 여러분을 위한 플레이리스트 공유 플랫폼, 이쩜오세대.
 
-## 기존 플랫폼의 문제점
+## 서비스 개요
+![발표자료3 - 개요](https://github.com/user-attachments/assets/7363c679-6d99-414f-a581-a92f9c403231)
 
-### YouTube Music
+![발표자료5 - 주요 요구사항](https://github.com/user-attachments/assets/5281b149-50ff-4a40-ba85-069f5fbf6122)
 
-- 재생목록 플레이리스트: 좋아요, 댓글 등 커뮤니티 기능 부재.
-- 자체 제작 플레이리스트: 플레이리스트를 내 입맛대로 바꿀 수 없음.
+## 구현 기능
+![발표자료9 - 주요 구현](https://github.com/user-attachments/assets/71a86100-650d-4c85-8039-be1898514c0d)
 
-### Spotify
+![발표자료10 - 주요 구현](https://github.com/user-attachments/assets/559ec9ac-3dbc-444f-8cf5-6cc866569d0b)
 
-- 플레이리스트 공유 횟수가 좋아요를 대신하나, 댓글 등 커뮤니티 기능 부재
+![발표자료11 - 주요 구현](https://github.com/user-attachments/assets/403c8d2e-d625-4c77-aa53-e508f5ee4bb2)
 
----
+![발표자료12 - 주요 구현](https://github.com/user-attachments/assets/3161adbc-b8a8-406f-b229-ddbb1fc65887)
 
-### 이쩜오세대는…
+## 프로젝트 아키텍처
 
-플레이리스트가 하나의 게시물이 되어, 자유로운 소통을 할 수 있는 커뮤니티를 제공합니다.
+### Architecture Diagram
+![아키텍처 플로우](https://github.com/user-attachments/assets/791b39c9-102f-4a10-a701-fee4d8ecae3c)
 
-## 서비스 컨셉 및 MVP
+### ERD
+![발표자료7 - ERD](https://github.com/user-attachments/assets/07d9ca2c-c668-4d4b-b5a4-91469c0384b1)
 
-### 플레이리스트 제작
+## 사용 기술
 
-- 유튜브 검색 API로 노래를 검색
-- 담은 노래로 재생목록 생성
+| 분야 | 사용 기술 |
+| --- | --- |
+| Front-end | `React` `Javascript` |
+| Back-end | `SpringBoot` `Java` |
+| Database | `MySQL` |
+| Deploy | `Vercel` `AWS EC2` `Nginx` |
 
-### 플레이리스트 공유
+## 팀원 소개
 
-- 재생목록 생성 시, 하나의 글이 만들어지는 것과 같음
-- 좋아요 및 댓글을 비롯한 커뮤니티 기능
-
-## 추가 기능
-
-### 플레이리스트 랭킹, 고인물 랭킹
-
-- 좋아요 순 정렬로 인기 플레이리스트 및 인기 작성자 랭킹 기능
-
-### 신청곡
-
-- 댓글로 신청곡을 요청하여, 이를 작성자가 반영한 후 피드백 가능
+| 심승보 | 최우진 |
+| --- | --- |
+| <a href="https://github.com/seungboshim"><img src="https://github.com/seungboshim.png" width="300px;" alt=""/></a> | <a href="https://github.com/jinnius02"><img src="https://github.com/jinnius02.png" width="300px;" alt=""/></a> |
+| `Back-end` `Front-end` `Deploy` | `Front-end` `UI/UX` |
